@@ -1,0 +1,20 @@
+{
+    "name": "abdelfadeil/phpslug",
+    "description": "package easy slug",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Abdelfadeil\\SlugPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mahmoud Abdelfadiel",
+            "email": "mahmoudhasan509@gmail.com"
+        }
+    ],
+ 
+    "require": {}
+}
