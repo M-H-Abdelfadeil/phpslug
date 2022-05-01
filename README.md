@@ -6,6 +6,7 @@ composer require abdelfadeil/phpslug
 ## EX
 ```php
 
+<?php
 
 use Abdelfadeil\SlugPhp\Slug;
 
@@ -25,3 +26,10 @@ echo $title; // مقالات-عن-البرمجة
 //   0مقالات-عن-البرمجة 
 //   واذا كان السابق موجود يتم اضافة 0 اخر وهكذا  
 //   0مقالات-عن-البرمجة0
+
+// فى حالة اذا اردت تغيير الفواصل بين الكلمات تقوم بوضع العلامه اخر براميتر على سبيل المثال 
+
+$text = "مقالات عن البرمجة";
+$title =  Slug::get_slug($configDB,"posts","title",$text  , "_");
+
+echo $title ; // مقالات_عن_البرمجة 
