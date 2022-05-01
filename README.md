@@ -1,7 +1,7 @@
 # PHPSLUG
 ## INSTALL
 
-composer require abdelfadeil/slug-php
+composer require abdelfadeil/phpslug
 
 ## EX
 ```php
